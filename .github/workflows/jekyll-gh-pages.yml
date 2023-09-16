@@ -39,7 +39,7 @@ jobs:
   # Deployment job
   deploy:
     environment:
-      name: github-pages
+      name: staging
       url: $STAGING_URL
     runs-on: ubuntu-latest
     needs: build
