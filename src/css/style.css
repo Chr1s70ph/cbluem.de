@@ -29,12 +29,10 @@ a:hover {
 html,
 body {
   height: 100%;
-  /* background-color: #333; */
+  /* overflow: auto; */
 }
 
-body {
-  display: -ms-flexbox;
-  display: -webkit-box;
+.body-div {
   display: flex;
   -ms-flex-pack: center;
   -webkit-box-pack: center;
@@ -42,29 +40,14 @@ body {
   color: #fff;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  overflow: auto;
+  min-height: 100%;
 
-  /*
-  * Animated background
-  */
-  /* background: linear-gradient(-45deg, #567dd6, #111c33, #4b6cb7);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-  height: 100vh; */
+  /* Footer height */
+  padding-bottom: 13rem;
 }
 
-/* @keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
 
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
-} */
 
 #navbar {
   position: relative;
@@ -72,8 +55,8 @@ body {
 
 .cover-container {
   max-width: 42em;
+  text-align: bottom;
 }
-
 
 /*
  * Header
@@ -87,7 +70,13 @@ body {
   color: #fff;
 }
 
+.nav-masthead {
+  position: relative;
+}
+
 .nav-masthead .nav-link {
+  position: relative;
+  bottom: 0;
   padding: .25rem 0;
   font-weight: 700;
   color: rgba(255, 255, 255, 0.66);
@@ -134,32 +123,41 @@ body {
 }
 
 
-/*
- * Footer
- */
-.mastfoot {
-  color: rgba(255, 255, 255, .5);
+#footer {
+  position: relative;
+  margin-top: -13rem;
+  height: 13rem;
+  clear: both;
+  background-color: #fff;
+}
+
+.footer-container {
+
+
+  text-shadow: none;
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+
+  max-width: 100% !important;
+}
+
+.footer-inner {
+  display: flex;
+  max-width: 720px;
 }
 
 
 
 
-
-
-
-/* ---- reset ---- */
-/* body {
-  margin: 0;
-  font: normal 75% Arial, Helvetica, sans-serif;
-} */
-
+/* ---- particles.js canvas ---- */
 canvas {
   display: block;
-  vertical-align: bottom;
 }
 
 /* ---- particles.js container ---- */
 #particles-js {
+  z-index: -99999999;
   position: fixed;
   width: 100%;
   height: 100%;
