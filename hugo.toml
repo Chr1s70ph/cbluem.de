@@ -30,8 +30,8 @@ pygmentsCodeFences=true
   rendererSafe = false # set to true if wish to remove the unsafe renderer setting below (recommended). Titles will not be run through markdownify
 
 [params.notFound]
-  gopher = "/images/gopher.png" # checkout https://gopherize.me/
-  h1 = 'Bummer!'
+  banner = "/images/oh-no-anyway.gif" # checkout https://gopherize.me/
+  h1 = 'Oh no!'
   p = "It seems that this page doesn't exist."
 
 [params.sections]
@@ -41,9 +41,10 @@ pygmentsCodeFences=true
   portfolio = "project"
 
 [params.sidebar]
-  backgroundImage = '/images/sidebar.png' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
-  gradientOverlay = '' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
-  logo = '/images/protrait.jpg' # - default "/images/edna-west.jpg"
+  backgroundImage = '/images/sidebar.png'
+  gradientOverlay = 'rgba(0,0,0,0),rgba(0,0,0,0)' # 'rgba(150,60,70,0),rgba(60,150,70,0)'
+  logo = '/images/portrait.jpg'
+
 [params.assets]
   favicon = "/images/favicon-96x96.ico"
   customCSS = ""
@@ -51,18 +52,18 @@ pygmentsCodeFences=true
 [params.social]
   github = "https://github.com/Chr1s70ph"
   # twitter = "https://twitter.com/"
-  linkedin = "https://www.linkedin.com/in/"
+  linkedin = "www.linkedin.com/in/christoph-bluem"
   # medium = "https://medium.com/"
   # codepen = "https://codepen.io/"
   # facebook = "https://www.facebook.com/"
   # youtube = "https://www.youtube.com/"
-  instagram = "https://www.instagram.com/"
-  gitlab = "https://gitlab.com/"
+  instagram = "https://www.instagram.com/bl.christoph"
+  gitlab = "https://gitlab.com/ChristophBluem"
   # keybase = "https://keybase.io/"
 
 [params.contact]
-  email = ""
-  text= "" # text of the contact link in the sidebar. If email params.contact.email is defined
+  email = "webmaster@cbluem.de"
+  text= "Email" # text of the contact link in the sidebar. If email params.contact.email is defined
 
 
 [menu]
@@ -75,17 +76,17 @@ pygmentsCodeFences=true
   weight = -120
 
 [[menu.main]]
-  identifier = "porojects"
+  identifier = "portfolio"
   name = "Projects"
-  title = "Projects"
-  url = "/projects/"
+  title = "My Projects"
+  url = "/portfolio/"
   weight = -110
 
 [[menu.main]]
   identifier = "blog"
   name = "Blog"
   title = "Blog section"
-  url = "/blog/"
+  url = "/post/"
   weight = -100
 
 [sitemap]
