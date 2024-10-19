@@ -45,7 +45,7 @@ pygmentsCodeFences=true
   gradientOverlay = '' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
   logo = '/images/protrait.jpg' # - default "/images/edna-west.jpg"
 [params.assets]
-  favicon = ""
+  favicon = "/images/favicon-96x96.ico"
   customCSS = ""
 
 [params.social]
@@ -75,17 +75,17 @@ pygmentsCodeFences=true
   weight = -120
 
 [[menu.main]]
-  identifier = "portfolio"
-  name = "Portfolio"
-  title = "Portfolio"
-  url = "/portfolio/"
+  identifier = "porojects"
+  name = "Projects"
+  title = "Projects"
+  url = "/projects/"
   weight = -110
 
 [[menu.main]]
   identifier = "blog"
-  name = "Post"
+  name = "Blog"
   title = "Blog section"
-  url = "/post/"
+  url = "/blog/"
   weight = -100
 
 [sitemap]
