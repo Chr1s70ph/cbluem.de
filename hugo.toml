@@ -18,7 +18,7 @@ pygmentsCodeFences=true
 
 [taxonomies]
   design = "designs"
-  tech = "techs"
+  tech = "technologies"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -26,11 +26,11 @@ pygmentsCodeFences=true
 [params]
   breadcrumb = true
   accentColor = "#112f41"
-  mainSections = ['portfolio'] # values: ['post', 'portfolio'] only accept one section, to be displayed bellow 404
+  mainSections = ['portfolio', 'post'] # values: ['post', 'portfolio'] only accept one section, to be displayed bellow 404
   rendererSafe = false # set to true if wish to remove the unsafe renderer setting below (recommended). Titles will not be run through markdownify
 
 [params.notFound]
-  banner = "/images/oh-no-anyway.gif" # checkout https://gopherize.me/
+  banner = "/images/oh-no-anyway.gif"
   h1 = 'Oh no!'
   p = "It seems that this page doesn't exist."
 
