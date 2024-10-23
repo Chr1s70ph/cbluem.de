@@ -2,8 +2,8 @@
 title: QuickKey 
 description: A small Windows application to quickly find special characters and copy them to your clipboard in an instant, without disturbing your workflow.
 date: "2021-11-29T16:26:00+02:00"
-work: [software-development]
-techs: [c++, coding, qt]
+series: "Co-Developing a QT-Application in C++"
+tags: ["c++", "coding", "qt"]
 projectUrl: https://github.com/leokraft/QuickKey
 jobDate: 2021
 thumbnail: quickkey/qicon.svg

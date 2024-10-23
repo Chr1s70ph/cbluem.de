@@ -3,8 +3,8 @@ title: ETIT Master
 description: "ETIT Master is a Discordbot I've been working on in my freetime"
 date: "2024-10-19T16:26:00+02:00"
 jobDate: 2023
-work: [software-development]
-techs: [javascript, typescript]
+series: "Developing a Discordot"
+tags: ["javascript", "typescript"]
 thumbnail: etit-master/code_screenshot.png
 projectUrl: https://github.com/Chr1s70ph/ETIT-Master
 ---
